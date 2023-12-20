@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar > ul > li {
+  display: inline-block;
+  padding-left: 20px;
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  text-decoration-line: none;
+}
+.navbar {
+  background-color: skyblue;
+  height: 70px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: skyblue;
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
